@@ -86,6 +86,16 @@ h3 {
     font-size: 1.1em;
 }
 
+#language-selector-block select {
+	background: #f3f3f3;
+	background-image: none;
+	border: 1px solid #f3f3f3;
+	border-radius: 0;
+	color: #464646;
+	font-family: source sans pro,sans-serif;
+	font-size: 1.6rem;
+}
+
 @media screen and (min-width: 768px) {
     #deed, #language-selector-block {
         margin-left: auto;
@@ -268,6 +278,7 @@ h3 {
     font-size: 38px;
     line-height: 1.1;
     margin: 0;
+    color: #FFF;
 }
 
 .pd #deed-license {
@@ -436,11 +447,11 @@ h3 {
     padding: 0;
 }
 
-a, a:visited {
+#deed a, #deed a:visited {
     color: #049CCF;
     text-decoration: none;
 }
-a:hover {
+#deed a:hover {
     color: #464646;
     text-decoration: underline;
 }
